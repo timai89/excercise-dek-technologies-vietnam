@@ -1,0 +1,10 @@
+<suite parallel="false" name="NopCommerce">
+	
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testsuite001.TC_01" />
+		</classes>
+	</test>
+	
+</suite> <!-- Suite -->
